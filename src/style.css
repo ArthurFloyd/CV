@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Poppins Light';
+  src: url('../fonts/Poppins-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Regular';
+  src: url('../fonts/Poppins-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Medium';
+  src: url('../fonts/Poppins-Medium.ttf');
+}
+
+@font-face {
+  font-family: 'Poppins Bold';
+  src: url('../fonts/Poppins-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans Regular';
+  src: url('../fonts/DMSans_18pt-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'DMSans Medium';
+  src: url('../fonts/DMSans_18pt-Medium.ttf');
+}
+
+body {
+  margin: 0;
+
+  font-family: 'Poppins Regular';
+  font-size: 18px;
+  color: #000;
+
+  line-height: 26px;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}

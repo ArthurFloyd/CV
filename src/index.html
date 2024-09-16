@@ -7,138 +7,181 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 
-<body>
-  <header>
-    <nav id="menu">
-      <p>AthurFloyd</p>
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">About</a></li>
-        <li><a href="/">Tech Stack</a></li>
-        <li><a href="/">Projects</a></li>
-        <li><a href="/">Contact</a></li>
-      </ul>
-      <img src="../asset/github-logo.png" width="35">
-      <img src="../asset/telegram-logo.png" width="35">
-      <img src="../asset/habr-logo.png" width="35">
+<body class="page-size">
+  <header class="header container flex-between">
+    <div class="header-logo">AthurFloyd</div>
+    <nav class="nav">
+
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Tech Stack</a>
+      <a href="#">Projects</a>
+      <a href="#">Contact</a>
+      <img src="../asset/github-logo.png" width="26">
+      <img src="../asset/telegram-logo.png" width="26">
+      <img src="../asset/habr-logo.png" width="26">
+
     </nav>
   </header>
-  <main>
-    <h1>Hi 👋,<br>My name is Arthur<br>I'm Frontend Developer</h1>
-    <img class="avatar" src="../asset/avatar.jpeg" width="200" style="border-radius: 100px;">
-  </main>border: 9px solid;
-
-  border-image-source: linear-gradient(180deg, #E70FAA 0%, #00C0FD 100%);
-
-
-  <article>
-    <h2>My Tech Stack</h2>
-    <p>Technologies I’ve been working with recently</p>
-    <table>
-      <img src="../asset/html-logo.png" width="120">
-      <img src="../asset/css-logo.png" width="105">
-      <img src="../asset/js-logo.png" width="120">
-      <img src="../asset/react-logo.webp" width="120">
-      <img src="../asset/redux-logo.png" width="120">
-      <img src="../asset/webpack-logo.webp" width="110">
-      <img src="../asset/bootstrap-logo.png" width="120">
-      <img src="../asset/mui-logo.png" width="120">
-      <img src="../asset/git-logo.png" width="120">
-      <img src="../asset/figma-logo.png" width="130">
-      <img src="../asset/vscode-logo.png" width="120">
-      <img src="../asset/github-logo.png" width="120">
-    </table>
-  </article>
-  <article>
-    <h2>Projects</h2>
-    <p>Things I’ve built so far</p>
-    <div class="container">
-      <div>
-        <img src="../asset/project-cover5.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
-      <div>
-        <img src="../asset/project-cover1.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
-      <div>
-        <img src="../asset/project-cover2.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
-      <div>
-        <img src="../asset/project-cover6.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
-      <div>
-        <img src="../asset/project-cover3.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
-      <div>
-        <img src="../asset/project-cover4.png" width="373">
-        <p>Project Tile goes here</p>
-        <p>This is sample project description random things are here in description This is sample project lorem ipsum
-          generator for dummy content</p>
-        <p>Tech stack : HTML , JavaScript, SASS, React</p>
-        <img src="../asset/chain-image.png" width="30">
-        <p>Live Preview</p>
-        <img src="../asset/github-logo.png" width="20">
-        <p>View Code</p>
-      </div>
+  <main class="main flex-between">
+    <h1>Hi 👋,<br>My name is<br><span>Arthur</span><br>I'm Frontend Developer</h1>
+    <img class="avatar" src="../asset/avatar.jpeg" width="330">
+  </main>
+  <article class="tech">
+    <h2 class="flix-center">My Tech Stack</h2>
+    <p class="flix-center">Technologies I’ve been working with recently</p>
+    <div class="container flex-wrap ">
+      <img class="img" src="../asset/html-logo.png" width="80">
+      <img class="img" src="../asset/css-logo.png" width="70">
+      <img class="img" src="../asset/js-logo.png" width="80">
+      <img class="img" src="../asset/react-logo.webp" width="80">
+      <img class="img" src="../asset/redux-logo.png" width="80">
+      <img class="img" src="../asset/webpack-logo.webp" width="70">
+      <img class="img" src="../asset/bootstrap-logo.png" width="70">
+      <img class="img" src="../asset/mui-logo.png" width="80">
+      <img class="img" src="../asset/git-logo.png" width="70">
+      <img class="img" src="../asset/figma-logo.png" width="70">
+      <img class="img" src="../asset/vscode-logo.png" width="70">
+      <img class="img" src="../asset/github-logo.png" width="70">
     </div>
   </article>
-  <footer>
-    <div>
+  <article class="project">
+    <h2 class="flix-center">Projects</h2>
+    <p class="flix-center">Things I’ve built so far</p>
+    <div class="container flex-wrap">
+      <div class="item">
+        <img src="../asset/project-cover5.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class="txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../asset/project-cover1.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class="txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../asset/project-cover2.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class=" txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../asset/project-cover6.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class="txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../asset/project-cover3.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class="txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="../asset/project-cover4.png" width="373">
+        <p class="txt-center">Project Tile goes here</p>
+        <p class="txt-left">This is sample project description random things are here in description This is sample
+          project lorem ipsum
+          generator for dummy content</p>
+        <p class="txt-left">Tech stack : HTML , JavaScript, SASS, React</p>
+        <div class="flex-between">
+          <div>
+            <img src="../asset/chain-image.png" width="30">
+            <p>Live Preview</p>
+          </div>
+          <div>
+            <img src="../asset/github-logo.png" width="20">
+            <p>View Code</p>
+          </div>
+        </div>
+      </div>
+  </article>
+  <footer class="container">
+    <div class="flex-between">
       <p>AthurFloyd</p>
-      <p>+7 924 438 86 40</p>
-      <p>+7 924 438 86 40</p>
-      <img src="../asset/github-logo.png" width="35">
-      <img src="../asset/telegram-logo.png" width="35">
-      <img src="../asset/habr-logo.png" width="35">
+      <div class="flex-row">
+        <p>+7 924 438 86 40</p>
+        <div>
+
+          <img src="../asset/github-logo.png" width="35">
+          <img src="../asset/telegram-logo.png" width="35">
+          <img src="../asset/habr-logo.png" width="35">
+        </div>
+      </div>
     </div>
     <hr>
-    <ul>
-      <li><a href="/">Home</a></li>
-      <li><a href="/">About</a></li>
-      <li><a href="/">Tech Stack</a></li>
-      <li><a href="/">Projects</a></li>
-      <li><a href="/">Contact</a></li>
-    </ul>
-    <p>Designed and built by <span>ArthurFloyd</span> with <span>Love</span> & <span>Coffee</span></p>
+    <div class="flex-between">
+      <div>
+        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="#">Tech Stack</a>
+        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="#">Contact</a>
+      </div>
+      <p>Designed and built by <span>ArthurFloyd</span> with <span>Love</span> & <span>Coffee</span></p>
+    </div>
   </footer>
 </body>
 

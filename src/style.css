@@ -87,7 +87,6 @@ h6 {
   font-family: 'DMSans Regular';
   font-size: 18px;
   padding-right: 6px;
-  /* margin-right: 25px; */
 }
 
 /* main */
@@ -112,7 +111,6 @@ h6 {
   border: 9px solid transparent;
   border-radius: 50%;
 
-  /* background: linear-gradient(180deg, rgba(231, 15, 170, 1), rgba(0, 192, 253, 1) 0.50%); */
 
   background: repeating-linear-gradient(#E70FAA 0%, #00C0FD 100%);
 
@@ -173,7 +171,6 @@ h6 {
   margin: 24px 20px;
   width: 337px;
   height: 514px;
-  /* background-color: #e3e3e3; */
   border-radius: 20px;
 }
 
@@ -189,7 +186,6 @@ h6 {
 .item .title {
   justify-content: space-between;
   text-align: center;
-  /* padding-top: 0px; */
   margin: 12px 0px 10px;
 
   font-family: 'Poppins Medium';
@@ -235,10 +231,7 @@ div .link {
 }
 
 div .link a {
-  /* align-self: start; */
-  /* display: inline-block;
-  vertical-align: top; */
-  /* padding-top: 10px; */
+
   margin: 10px 0px 0px;
   font-size: 14px;
   color: rgba(0, 0, 0, 1)
@@ -263,7 +256,6 @@ footer .logo {
   font-size: 16px;
   margin: 0px 25px;
   display: flex;
-  /* color: rgba(66, 68, 110, 1); */
 }
 
 .contact div {
@@ -335,7 +327,3 @@ footer .logo {
 .txt-center {
   text-align: center;
 }
-
-/* .txt-left {
-  text-align: left;
-} */
